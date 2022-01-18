@@ -1,0 +1,31 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+.assignment-part-1{
+    display: flex;
+    margin-top: 20px;
+}
+.half-width{
+    margin-left: 20px;
+}
+.half-width img{
+    width: 50%;
+    margin-left: 70px;
+    margin-top: 15px;
+
+}
+h1{
+    font-size: 50px;
+    border-left: solid #e64141 2px;
+    
+}
+.green{
+    color: green;
+}
+.tuch-button{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-image: linear-gradient(rgb(221, 28, 6),tomato);
+    border-radius: 5px;
+}
