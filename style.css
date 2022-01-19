@@ -2,6 +2,12 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
 }
+.container{
+    width:1140px;
+    margin: 0 auto;
+}
+
+
 .assignment-part-1{
     display: flex;
     margin-top: 20px;
@@ -15,9 +21,11 @@ body{
     margin-top: 15px;
 
 }
-h1{
+.half-width h1{
     font-size: 50px;
     border-left: solid #e64141 5px;
+    padding-left: 5px;
+    line-height: 60px;
 
 }
 .green{
@@ -31,10 +39,19 @@ h1{
     color: white;
 }
 .sec-2{
-    display: inline-flex;
-    
+
+}
+.sec-2 h2{
+    text-align: center;
 }
 .div-1-sc2{
     display: flex;
-    background-color: brown;
+    justify-content: space-between;
+
+}
+.card{
+    width: 30%;
+}
+.card img{
+    width: 50%;
 }
